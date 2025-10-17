@@ -33,7 +33,6 @@ body {
 }
 
 button {
-    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -43,6 +42,22 @@ button {
     transition: background-color 0.3s;
 }
 
+button.yellow {
+    background-color: #FFD700;
+}
+
+button.blue {
+    background-color: #1E90FF;
+}
+
 button:hover {
     background-color: #45a049;
+}
+
+button.yellow:hover {
+    background-color: #FFC300;
+}
+
+button.blue:hover {
+    background-color: #00BFFF;
 }
